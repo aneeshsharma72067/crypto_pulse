@@ -1,8 +1,11 @@
-# React + Vite
+# CryptoPulse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A crypto screening web application which provides real time updates for various cryptocurrencies. User can see and track various cryptocurrencies and can sort them based on market capital or volume. Provides a section for viewing tranding cryptocurrencies. User can also save some cryptocurrencies to track them.
 
-Currently, two official plugins are available:
+# Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React.js
+- Tailwind CSS
+- Recharts
+- Vite
+- CoinGecko API
