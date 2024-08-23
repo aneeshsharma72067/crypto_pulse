@@ -8,11 +8,11 @@ const Logo = () => {
       to="/"
       className="
      absolute top-[1.5rem] left-[1.5rem] [text-decoration:none]
-text-lg text-cyan flex items-center
+text-lg text-cyan flex items-center gap-3
      "
     >
-      <img src={logoSvg} alt="CryptoBucks" />
-      <span>CryptoBucks</span>
+      <img src={logoSvg} alt="CryptoBucks" className="w-7" />
+      <span>CryptoPulse</span>
     </Link>
   );
 };

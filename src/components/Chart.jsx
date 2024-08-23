@@ -7,7 +7,7 @@ import {
   YAxis,
   Tooltip,
   CartesianGrid,
-  Legend,
+    Legend,
   ResponsiveContainer,
 } from "recharts";
 import { useContext } from "react";
@@ -80,7 +80,6 @@ const Chart = ({ id }) => {
             [type]: item[1],
           };
         });
-
         // console.log(convertedData);
         setChartData(convertedData);
       } catch (error) {
@@ -90,7 +89,6 @@ const Chart = ({ id }) => {
 
     getChartData(id);
   }, [id, type, days]);
-
   return (
     <div className="w-full h-[60%]">
       <ChartComponent data={chartData} currency={currency} type={type} />

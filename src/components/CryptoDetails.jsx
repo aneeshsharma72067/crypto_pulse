@@ -59,7 +59,7 @@ const CryptoDetails = () => {
       >
         {data ? (
           <div className="flex items-center justify-between h-full w-full p-4">
-            <div className="flex flex-col w-[45%] h-full pr-2 ">
+            <div className="flex flex-col w-[45%] overflow-y-scroll h-full pr-2 ">
               <div className="flex w-full items-center">
                 <img
                   className="w-[3rem] h-[3rem] mx-1.5"
@@ -486,6 +486,6 @@ const CryptoDetails = () => {
     </div>,
     document.getElementById("model")
   );
-};
+}
 
 export default CryptoDetails;
